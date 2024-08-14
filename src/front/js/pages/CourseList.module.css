@@ -1,0 +1,29 @@
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.tittle-list {
+    width: Fixed (305px)px;
+    height: Fixed (345px)px;
+    gap: 22px;
+    opacity: 0px;
+
+}
+
+.tittle {
+    width: 305px;
+    height: 92px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+@media (max-width: 768px) {
+    .course-card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
